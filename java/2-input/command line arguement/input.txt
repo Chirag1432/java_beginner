@@ -1,0 +1,8 @@
+class Abc
+{
+public static void main(String[] chirag)
+{
+int n = Integer.parseInt(chirag[3]);
+System.out.println(+n);
+}
+}

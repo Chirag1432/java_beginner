@@ -1,0 +1,24 @@
+class Abc
+{
+public Abc()
+{
+System.out.println("inside Abc constructor");
+}
+}
+
+class Pqr extends Abc
+{
+public Pqr()
+{
+System.out.println("inside pqr constructor");
+}
+}
+
+class Mymain()
+{
+public static void main(String[] chirag)
+{
+Pqr ob = new Pqr();
+}
+}
+

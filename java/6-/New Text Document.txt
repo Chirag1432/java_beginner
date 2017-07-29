@@ -1,0 +1,25 @@
+class Abc
+{
+  private int x;
+  public void setdata(int y)
+	{
+		x=y;
+	}  
+
+  public void getdata()
+	{
+	System.out.println("square of "+x+"is:"+(x*x));
+	}
+}
+
+
+class Mymain
+{
+public static void main(String[] args)
+ {
+	Abc ob = new Abc();
+	ob.setdata(6);
+	ob.getdata();
+ }
+
+}

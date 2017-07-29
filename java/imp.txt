@@ -1,0 +1,26 @@
+1> JVM calls main method
+2> class name start with Capital_letter (upper case     upper case)
+3> method name start with Small letter (lower case   upper case)
+4> anything entered through keyboard will be in byte stream
+5> String is class in java i.e string is reference type in java
+6> import java.io.*;(jvm is smart jiske jarurat he usko use krta he)
+7> Buffered reader class works on character oriented data matlab byte stream ko read nahi kar paega toh inputstream reader class ke jarurat padegi read krne ke liye
+8> jab bhi buffered reader ka use kro tab io exception throw kar dena;import java.io.*;
+9> static cheezo ko access krne ke liye object ke jarurat nahi
+10> whenever arithmatic calculations are to be performed on CHAR,SHORT,BYTE type values Java would initally conert them into INT and then operation will be performed
+11> Short hand operator(+=,-=,..) ==>implicit conversion;
+12> CHAR is Numeric Type {UNICODE};
+13> Char = 2byte ,Short = 2byte, float and int =4byte, double and long = 8byte;
+14> java convert floating point into double(float x=2.4//error or float x=2.4f//no_error)
+15> short circuit logical operator(&& and ||)(left to right associativity)(skips behaviour of rhs)
+16> Array is static data structure(mtlb memory allocate kar he dega)
+17> in java there should be boolean expression in IF statement
+18> "String in double_quotes" and 'character in single_quotes'
+19> in java there is no garbage value
+20> mtd overloading mein return type same hona chahiye nito compile time error
+21> mtd overloading ko ham C T Polymorphism and Early Binding and Static Binding kehte he
+22> contructor will be called at last after static block and member initializer
+23> modes of inheritance is not present in java jaise(private,protected,etc)
+24> benefits of inheritance 1.reusesability 2.extensibility(add new features)
+25> WHenever we create object of CHILD CLASS initially PARENT CLASS CONSTRUCTOR gets called then child class constructor will be called
+26> java does not support multiple inheritance

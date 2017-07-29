@@ -1,0 +1,10 @@
+import java.util.*;
+class Abc
+{
+public static void main(String[] chirag)
+{
+Scanner myscan = new Scanner(System.in);
+String st = myscan.next();
+System.out.println("you entered:"+st);
+}
+}

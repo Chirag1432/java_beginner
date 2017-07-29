@@ -1,0 +1,11 @@
+class Abc
+{
+public static void main(String[] chirag)
+{
+char c1 = 'd';
+char c2 = '84';
+c1++;
+c2++;
+System.out.println(c1+" "+c2);
+}
+}

@@ -1,0 +1,22 @@
+class Abc
+{
+private int x;
+public Abc
+  {
+   x=5;
+  }
+public void getdata()
+   {
+    System.out.println("square:"+(x*x));
+   }
+}
+
+class Mymain
+{
+public static void main(String[] chirag)
+{ 
+Abc ob = new Abc();
+ob.getdata();
+}
+
+}
