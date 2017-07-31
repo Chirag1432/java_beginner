@@ -1,0 +1,35 @@
+interface Abc
+{
+void show();
+}
+
+interface Xyz
+{
+void display();
+}
+
+class Pqr implements Abc,Xyz
+{
+void show()
+{
+System.out.println("This is Show mtd of Abc interface implemented by Pqr class ");
+}
+void display()
+{
+System.out.println("This is Show mtd of Xyz interface implemented by Pqr class ");
+}
+}
+
+class Mymain
+{
+public static void main(String[] chirag)
+{
+Pqr ob = new Pqr();
+ob.display();
+ob.show();
+
+Xyz ob1 = new Pqr();
+ob1.display();
+ob1.show();//error
+}
+}

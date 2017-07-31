@@ -24,3 +24,35 @@
 24> benefits of inheritance 1.reusesability 2.extensibility(add new features)
 25> WHenever we create object of CHILD CLASS initially PARENT CLASS CONSTRUCTOR gets called then child class constructor will be called
 26> java does not support multiple inheritance
+27> No DESTRUCTOR in JAVA
+28> if we declare particular class as FINAL then the class become uniheritable
+29> FINALISE MTD (not used) Present in GARBAGE COLLECTOR class Ham isko Use bhi ni karte sirf JVM use krta he,its JVM tasks To call It.
+30> MTd Overriding(jiska object uske mtd call hogi) matlab child class mtd always override parent class method
+31> RULES FOR MTD OVERRIDING :-
+    1.overriding mtd (child class mtd) MUST have either same or stronger access modifier than overriden mtd(parent class mtd).
+    2.overriding mtd and overridden mtd MUST have either same or Covariant return type(Debatable_topic).
+    3.overriding mtd MUST NOT throw a new Exception or an exception which is not the subtype of Exception thrown by overriden mtd.
+32> Exception(father of all exception)
+33> RUN TIME POLYMORPHISM:-Late Binding,Dynamic Binding,Dynamic Mtd Dispatched
+    1.Binding:Association of object with method.
+    2.if we ASSIGN child class object to the parent class reference,then concept is Upcasting.
+      eg;-Par_clas ob = new child_clas();[MIXED OBJECT]
+imp 3.All the mtd of parent class will be called from mixed object except overridden.
+imp 4.only OVERRIDING mtd is called of subclass from mixed object.
+
+34>Encapsulation=>Data_hiding.
+35>Method_hiding=>overriding Static method.
+36>Abstract(Mtlb Incomplete) Class.
+   1.In case of java to create an abstract CLASS we need to declare it using abstract keyword.
+   2.we cannot create object of abstract class
+   3.if a class contains abstract METHOD it MUST be declare as abstract CLASS.
+   4.an abstract class may contain abstract and non abstract methods
+   5.it is not mandatory for an abstract class to contain an abstract method.
+   6.if a class inherits from an abstract parent class,it will become MANDATORY for the child class to complete(override) all the abstract mtd of parent class.
+37>Interfaces:not are classes
+   1.Methods in Interface:are by default Abstract and Public
+   2.variables in Interface:are by default final,static and Public 
+   3.interface ko jo bhi mtd implement karegi usko saare mtd declare krne honge
+38>Parent can never access child
+39>
+ 

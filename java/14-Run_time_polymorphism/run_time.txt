@@ -1,0 +1,25 @@
+class Abc
+{
+public void show()
+{
+System.out.println("Inside class Abc");
+}
+}
+
+class Pqr extends Abc
+{
+public void show()
+{
+System.out.println("Inside class Pqr");
+}
+}
+
+
+class Mymain
+{
+public static void main(String[] chirag)
+{
+Abc ob = new Pqr();
+ob.show();
+}
+}
