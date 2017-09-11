@@ -1,0 +1,18 @@
+import java.util.*;
+class Mymain
+{
+public static void main(String[] chirag)
+{
+ArrayList<String> al= new ArrayList<String>();//using genric 
+al.add("chirag");
+al.add("anuj");
+al.add("xyz");
+al.add("pqr");
+
+//printing through for each loopppp
+
+for(String x:al)
+System.out.println(al);
+
+}
+}

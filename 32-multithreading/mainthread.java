@@ -1,0 +1,27 @@
+class Abc_thread
+{
+public static void main(String[] chirag)
+{
+Thread t = Thread.currentThread();
+System.out.println("Current Thread Ka naam:"+t);
+
+t.setName("MyThreadd");//thread ka naam badal diya
+System.out.println("Thread name after change of name:"+t);
+
+try{
+for(int n=10;n>0;n--)
+{
+System.out.println(n);
+t.sleep(2000);
+}
+
+}
+
+catch(InterruptedException ie)
+{ System.out.println(ie); 
+
+}
+} 
+
+
+}

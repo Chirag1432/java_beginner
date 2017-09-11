@@ -1,0 +1,18 @@
+import java.util.*;
+class Mymain
+{
+public static void main(String[] chirag)
+{
+Scanner myscan=new Scanner(System.in);
+HashMap<String,String> hm = new HashMap<String,String>();
+System.out.println("enter the elemnet in hash map:");
+hm.put(chirag,9407400915);
+hm.put(anuj,8889000521);
+int i=1;
+for(Map.Entry<String,String> mm:hm.entrySet())
+{
+System.out.println(i+":"+"key:"+mm.getKey()+"values:"+mm.getValues);
+i++;
+}
+}
+}

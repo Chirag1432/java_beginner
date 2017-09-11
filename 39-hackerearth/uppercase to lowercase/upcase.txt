@@ -1,0 +1,15 @@
+class Mymain
+{
+public static void main(String[] chirag)
+{
+Scanner myscan = new Scanner(System.in);
+System.out.println("enter the string:");
+String s = myscan.next();
+
+char[] c = s.toCharArray();
+System.out.println("displayin char array:");
+for(int i:c)
+System.out.print(i+" ");
+
+}
+}

@@ -1,0 +1,29 @@
+//add list2 to list1
+
+import java.util.*;
+class mymain
+{
+public static void main(String[] chirag)
+{
+ArrayList<String> list1 = new ArrayList<String>();
+list1.add("chirag");
+list1.add("gupta");
+list1.add("list1");
+
+System.out.println("printing element of list1");
+for(String a:list1)
+System.out.println(a);
+
+list2.add("chirag");
+list2.add("gupta");
+list2.add("list2");
+
+
+System.out.println("printing element of list2");
+for(String a:list2)
+System.out.println(a);
+
+
+}
+}
+
