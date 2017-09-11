@@ -1,0 +1,65 @@
+import java.util.*;
+class Mymain
+{
+public static void main(String[] args)
+{
+
+Scanner myscan = new Scanner(System.in);
+
+HashMap<Character,Integer> hm = new HashMap<Character,Integer>();
+//for(char a:s)
+HashMap<Integer,String> hm1 = new HashMap<Integer,String>();
+
+
+System.out.println("no. of test cases");
+int t = myscan.nextInt();
+
+for(int l=0;l<t;l++)
+{
+
+System.out.println("how many string u want to enter:");
+int h = myscan.nextInt();
+//int count=0;
+int[] count= new int[h];
+
+for(int i=0;i<h;i++)
+{
+
+hm.clear();
+System.out.println("Enter string:");
+String s = myscan.next();
+char[] c = s.toCharArray();
+for(char z : c)
+{
+if(hm.containsKey(z))
+{ }
+else
+{
+hm.put(z,1);
+count[i]++;
+}
+
+
+
+}
+hm1.put(count[i],s);
+//System.out.println(count);
+}
+//int min=0;
+//for(int u:count)
+//{
+//System.out.println(u);
+//if()
+
+//}
+
+Arrays.sort(count);
+int z = count[0];
+System.out.println(hm1.get(z));
+
+
+
+
+}
+
+}}
