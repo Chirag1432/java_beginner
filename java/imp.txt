@@ -54,5 +54,72 @@ imp 4.only OVERRIDING mtd is called of subclass from mixed object.
    2.variables in Interface:are by default final,static and Public 
    3.interface ko jo bhi mtd implement karegi usko saare mtd declare krne honge
 38>Parent can never access child
-39>
- 
+39>with java 8 and above we write a complete mtd inside the INTERFACE provided we have declared it using keyword DEFAULT now it would not become mandatory for implementing class to override the default method of interface
+40>Any class inherits from OBJECT CLASS(O) either directly or indirectly.
+41>Null Object cannot belong to OBJECT class
+42>JVM refer TO OBJECT BY HATCH CODE
+43>Object class ke andar toString() mtd hoti he these simply mean that we can override it.
+44>lang pakage by default import hota he he
+45>Object class ke andar equals mtd bhi hoti he
+46> java.util.* AND java.sql.* both have date class toh ambiguity ho sakti he isliye mention packages
+47> jar -cvf/xvf destination/source source/destination
+48> Exception class sab exception hon ke parent he ANd EXCEPTION CLASS IS SUBCLASS OF THROWABLE CLASS
+49> Exception Handling(Runtime error-due to logical error and pgrm terminate after it)
+50>c++ mein bhi try catch block hote he
+51>try catch ke andar jo bhi variable use karo toh uska pehle bahar declaration and initialization hona jaruri he. 
+52>Always use printStackTrace mtd(isse woh bta dega kon sa exception aaya) inside catch block.
+53>Finally block==> I will always be executed whether exception occurs or not
+54>generalise catch block hamesha last mein hona chahiye (NAHI TOH UNREACHABLE CODE WALA PROBLEM COMPILE TIME ERROR)
+55>jaise he TRY mein Exception AAYA uske baad wala statement not going to be executed TRY BLOCK WALE.
+56>checked exception aaya toh try block ke andar jo throw kiya uske waha wala getmsg function call hoga see 31-
+57>Multithreading is Light weight process
+58>c,c++ follows Green Thread Model(Dependent on OS for Exhibiting Multithreading) while JAVA depend on JVM for Multithreading
+59>0 - 10 priority level
+60>thread use karo toh interrupted exception laga diya karo
+61>Runnable interface : ke andar run method hoti he jo ke abstract(incomplete) hoti he aur woh run method ko start mtd call kar dete he usko call krne ke zarurat ni he
+62>it is not compulsory that main thread will end at last
+63>currentthread() and setname() super("name pass kara he") new thread("this","naam") yehh mtd pade he
+64>alive() false mtlb thread stopped;and vice versa
+65>class ko kbi public kiya toh uske naam se he save krna hoga.
+66>inner classes ke .class file banti he eg outer$inner.class
+67>string pool memory save krta he eg:String s="hi hello" yehh string pool mein save hoga
+68>String s=new String("hi hello"); stored in heap;
+70>lambda expression can be implemented by Functional INTERFACE(JISKE ANDaR sirf ek abstract mtd hoti he )
+71>any type of data in single object:-collection 
+72>autoboxing:-conversion of primitive to its wrapper type
+73>String class is reference type and its objects are IMMUTABLE(i.e only effect can be seen)
+74>2 ways to create mutable strings:--1.string buffer class(not used,thread se safe nahi he)
+                                      2.string builder class(used,thread safe)   
+75>serialization writing current state of object to a stable storage medium
+
+
+76>2 ways to traverse collection:1>through iterator interface
+             			 2>using for each loop 	
+
+77>nextline()==> reads from same line and next()==>read from next line
+78>String ko char array banana ho toh 
+	String s = myscan.next();
+        char[] c = s.toCharArray();//string ko direct char array mein convert kar diya
+
+79>jab bhi char ke saath kaam kre toh ek baat dhyan rakhna ke char primitive(value) type he toh STring wali method Character.isUpperCase tarike se call krna mtlb Character aage lagaana jaruri he
+
+80>jab bhi char read krna ho toh string lena fir charAt(position) Wali mtd se usko utha sakte ho
+
+81>Stringbuffer to string convert kiya toh tostring method ka use krna he hoga eg:-
+rev=sb1.toString();//sbi stringbuffer and rev string object
+
+82>brute force approach is in which we check all possible solutions of given problem
+83>Collections.reverse(ARRAY_LIST_NAME);
+
+84>to convert int to STRING use eg-
+    int x=myscan.nextInt();
+    String y = Integer.toString(x);
+85>Arrays.sort(arrayname);
+86>STRING_NAME.contain(a);
+87>kbi StringBuilder ya StringBuffer se String mein convert krna ho toh toString()
+    like 81(Same);
+88>INSTANCE VARIABLE MATLAB JO BHI OBJECT BANA SAB KE LIYE HOTE HE(SAB KE LIYE ALAG COPIES HOTI HE);CLASS VARIABLE MATLAB JISKE EK HE COPY HOTI HE JAISE KE STATIC VARIABLES; 
+
+89>set mein only unique elements;
+   list mein sab elements
+90>Map.Entry (Map and Entry both are interface Entry interface is present in Map interface like Nested Interface)
