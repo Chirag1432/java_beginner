@@ -1,0 +1,2 @@
+tutorial point pdf se kiya he bass db_url jo ki DriverManager.getConnection ka arguement he usko mene change kiya he "jdbc:mysql://localhost:3306/sonoo"  
+sonoo jo he woh database ka naam he   
