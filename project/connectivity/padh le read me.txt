@@ -1,0 +1,5 @@
+tutorial point pdf se kiya he change sirf bass db_url mein he jo ki 5th line mein he "jdbc:mysql://localhost/sonoo";
+sonoo jo he woh database ka naam he   
+
+kbi iske zrurat padh sakte he
+"jdbc:mysql://localhost:3306/sonoo"
