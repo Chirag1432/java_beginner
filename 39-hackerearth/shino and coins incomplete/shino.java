@@ -1,0 +1,13 @@
+import java.util.*;
+class Mymain
+{
+public static void main(String[] chirag)
+{
+Scanner myscan=new Scanner(System.in);
+String s = myscan.next();
+char[] c = s.toCharArray();
+Arrays.sort(c);
+for(int d:c)
+System.out.println(d);
+}
+}

@@ -1,0 +1,19 @@
+//hcf*lcm=product of two numbers
+
+import java.util.*;
+class Mymain
+{
+public static void main(String[] chirag)
+{
+Scanner myscan = new Scanner(System.in);
+System.out.println("Enter the number:");
+int n = myscan.nextInt();
+int gcd=1;
+if(n<3)
+System.out.println("-1");
+else
+{
+
+
+
+}
